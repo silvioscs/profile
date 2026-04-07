@@ -35,8 +35,8 @@ def get_pdf_text(file_path):
 pdf_context = get_pdf_text("perfil.pdf")
 
 # 3. Interface
-st.title("Silvio Sousa AI")
-st.markdown("*Assistente Executivo de FP&A*")
+st.title("Silvio AI")
+st.markdown("*Pergunte-me como te ajudar com FP&A*")
 st.divider()
 
 if "messages" not in st.session_state:
