@@ -36,7 +36,7 @@ pdf_context = get_pdf_text("perfil.pdf")
 
 # 3. Interface
 st.title("Silvio AI")
-st.markdown("*Pergunte-me como te ajudar com FP&A*")
+st.markdown("*Pergunte-me como te ajudar com FP&A. Como é uma versão gratuita de AI, faça perguntas com 4 palavras no máximo.*")
 st.divider()
 
 if "messages" not in st.session_state:
